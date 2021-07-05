@@ -8,7 +8,7 @@ export default function StockMarket() {
 
     return (
         <div >
-            <LineChart width={1000} height={500} data={previous}>
+            <LineChart width={800} height={400} data={previous}>
                 <Line type="monotone" dataKey="stock" stroke="#8884d8" />
                 <CartesianGrid stroke="#ccc" />
                 <XAxis dataKey="time" />
