@@ -82,5 +82,4 @@ export default function StockMarket() {
             <h3 class="header" hidden={!name.length > 0} >{`Latest: $${previous[previous.length - 1] || 0}`}</h3>
         </div>
     )
-
 }

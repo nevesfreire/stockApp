@@ -15,6 +15,6 @@ git clone https://github.com/nevesfreire/stockApp.git
 * [IEX CLOUD API](https://iexcloud.io/docs/api/) - A API consumida
 * [Resharts](https://recharts.org/) - Biblioteca de plotagem de gráficos
 
-## ✒️ Autores
+## ✒️ Autor
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [Fernando freire](https://github.com/nevesfreire/)
+* [Fernando freire](https://github.com/nevesfreire/)
