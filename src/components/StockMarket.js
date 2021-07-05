@@ -50,6 +50,7 @@ export default function StockMarket() {
             <h1 class="header">StockMarket</h1>
             <input
                 minLength="1"
+                hidden={onOff === 1}
                 class="input"
                 type="text"
                 name="symbol"
@@ -63,12 +64,14 @@ export default function StockMarket() {
                 type="button"
                 class="buttons"
                 id='on'
+                hidden={onOff === 1}
                 onClick={() => { setOnOff(1); }}
             >ON</button>
             <button
                 type="button"
                 class="buttons"
                 id='off'
+                hidden={onOff === 0}
                 onClick={() => {
                     clearInterval(clear);
                     setOnOff(0);
